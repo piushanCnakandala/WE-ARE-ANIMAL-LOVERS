@@ -106,7 +106,7 @@
 }
 #contactBtnDiv {
     position: relative;
-   /* margin: auto;*/
+    margin: auto;
     left: -252px;
     width: 161px;
     top: -50px;
@@ -153,4 +153,20 @@
     border-radius: 20px;
     border: 10px solid black;
     left: 202px;
+}
+#img_cl{
+    width: 183px;
+    height: 296px;
+    left: 10px;
+    position: relative;
+    top: 25px;
+    border-radius: 10px;
+}
+#img_mail{
+    width: 183px;
+    height: 296px;
+    left: 10px;
+    position: relative;
+    top: 25px;
+    border-radius: 10px;
 }
