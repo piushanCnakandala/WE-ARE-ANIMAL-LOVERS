@@ -66,7 +66,36 @@
     width: 50px;
 }
 
-
+.box{
+    width: 1654px;
+    height: 664px;
+    background: #565656;
+    position: absolute;
+    justify-content: center;
+    left: 103px;
+    border-radius: 40px;
+    opacity: 10%;
+    top: 110px;
+}
+.viewBox{
+    position: relative;
+    display: flex;
+    width: 1220px;
+    height: 400px;
+    justify-content: space-between;
+    left: -222px;
+    right: 400px;
+    margin: auto;
+    top: 187px;
+}
+.viewBox :hover{
+    transform: scale(1.2)
+}
+.project_img{
+    osition: relative;
+    height: 319px;
+    border-radius: 15px;
+}
 
 
 
