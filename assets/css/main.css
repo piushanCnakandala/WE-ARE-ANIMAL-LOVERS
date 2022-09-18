@@ -83,7 +83,7 @@
     width: 1220px;
     height: 400px;
     justify-content: space-between;
-    left: -222px;
+    left: -53pxgit;
     right: 400px;
     margin: auto;
     top: 187px;
@@ -92,9 +92,10 @@
     transform: scale(1.2)
 }
 .project_img{
-    osition: relative;
+    position: relative;
     height: 319px;
     border-radius: 15px;
+    width: 396px;
 }
 
 
@@ -144,16 +145,14 @@
     width: 128px;
     height: 38px;
     background-color: white;
-    box-shadow: -1px 2px 16px #1d33ab;
-    border-radius: 15px;
-    position: relative;
+   box-shadow: -1px 2px 16px #1d33ab;
+     border-radius: 15px;
+      position: relative;
     font-weight: bold;
     font-size: 17px;
     color: black;
-    border: 0;
-    font-family: 'Saira Condensed', sans-serif;
-    left: -437px;
-    top: 59px;
+     font-family: 'Saira Condensed', sans-serif;
+    top: 90px;
 }
 #contactBtn:hover {
     color: #0b5ed7;
