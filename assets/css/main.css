@@ -16,6 +16,11 @@
     top: 18px;
     padding:0;
 }
+
+html{
+    scroll-behavior: smooth; /*smoothly navigate page to page */
+}
+
 .navLi{
     display: inline;
     margin :30px;
@@ -35,6 +40,24 @@
     position: relative;
     top: 16px;
 }
+
+#title_main{
+    position: absolute;
+    left: 90px;
+    font-size: 82px;
+    top: 218px;
+    color: white;
+    font-family: Calibri;
+}
+
+#description{
+    position: absolute;
+    left: -193px;
+    top: 635px;
+    color: white;
+    font-size: 25px;
+}
+
 
 .all-sec{
     height: 100vh;
@@ -83,7 +106,7 @@
     width: 1220px;
     height: 400px;
     justify-content: space-between;
-    left: -53pxgit;
+    left: -53px;
     right: 400px;
     margin: auto;
     top: 187px;
@@ -119,6 +142,8 @@
     width: 952px;
 }
 .lbl {
+    position: relative;
+    top: -310px;
     left: 35px;
     color: black;
     margin-top: 31px;
@@ -127,6 +152,8 @@
     font-family: 'Saira Condensed', sans-serif;
 }
 .inp {
+    position: relative;
+    top: -305px;
     width: 474px;
     height: 59px;
     font-size: 26px;
@@ -152,7 +179,8 @@
     font-size: 17px;
     color: black;
      font-family: 'Saira Condensed', sans-serif;
-    top: 90px;
+    left: 24px;
+    top: -231px;
 }
 #contactBtn:hover {
     color: #0b5ed7;
@@ -161,8 +189,8 @@
 #cal-chat{
     position: relative;
     display: flex;
-    justify-content:space-evenly;
-    top: -413px;
+    justify-content: space-evenly;
+    top: 231px;
 }
 #call-now{
     position: relative;
