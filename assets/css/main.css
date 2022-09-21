@@ -15,6 +15,7 @@
     left: -772px;
     top: 18px;
     padding:0;
+    list-style: none;
 }
 
 html{
@@ -30,7 +31,26 @@ html{
     font-family: 'Lobster', cursive;
     color: white;
     padding:0;
+    list-style: none;
 }
+
+header > nav > ul >a{
+    color: white;
+    text-decoration: none;
+
+}
+section>header > nav > ul > a>li:link{
+    color: white;
+
+}
+
+section>header > nav > ul > a>li:visited{
+    color: white;
+}
+section>header > nav > ul > a>li:hover{
+    color: yellow;
+}
+
 .container {
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0), black), url("../image/home_wall.jpg");
@@ -52,10 +72,11 @@ html{
 
 #description{
     position: absolute;
-    left: -193px;
-    top: 635px;
+    left: -33px;
+    top: 475px;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
+    font-family: Bahnschrift SemiBold;
 }
 
 
